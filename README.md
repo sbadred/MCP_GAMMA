@@ -5,8 +5,8 @@ This repository contains the core C++ and CUDA-accelerated routines for evaluati
 This code allows researchers to systematically verify two critical properties of any given Pauli operator pool:
 1. **The Rank Condition:** Evaluates the rank of the anti-commutation adjacency matrix ($\Gamma_\mathcal{A}$) over the binary field ($\mathbb{F}_2$) to guarantee theoretical completeness ($2N-4$).
 2. **Bracket Independence**.
-3. **Generate the Lie Algebra**
-4. **Generate the Product Group**
+3. **Generates the Lie Algebra**
+4. **Generates the Product Group**
    
 ## 📖 Citation
 If you use this code in your research, please cite our associated manuscript:
@@ -31,7 +31,7 @@ This repository utilizes GPU acceleration for matrix reductions over the binary 
 ### 1. Environment Setup
 If you are running this code on a High-Performance Computing (HPC) cluster, you will first need to load the appropriate NVIDIA HPC SDK module. For example:
 ```bash
-module load Core/Portland/nvhpc/24.7
+module load Core/Portland/nvhpc/24.7```
 
 ### 2. Compiling the Source Code
 
