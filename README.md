@@ -15,6 +15,10 @@ If you use this code in your research, please cite our associated manuscript:
 
 *(Note: The full quantum chemistry simulations presented in the paper were performed using the proprietary Hyperion emulator. This repository isolates the open-source algebraic pool verification framework.)*
 
+## 👥 Authors and Contributors
+
+* **Yaromir Viswanathan** – *Main contributor and lead developer of this codebase.*
+* **Olivier Adjoua, César Féniou, Siwar Badreddine, and Jean-Philip Piquemal** – *Co-authors and contributors to the theoretical framework.*
 ---
 
 ## 📂 Repository Structure
@@ -41,3 +45,4 @@ nvcc -o main main.cc CheckGamma.cu
 
 ### 3.Running the Verification
 You can execute the program directly by running ./main.
+
