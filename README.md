@@ -31,11 +31,11 @@ This repository utilizes GPU acceleration for matrix reductions over the binary 
 ### 1. Environment Setup
 If you are running this code on a High-Performance Computing (HPC) cluster, you will first need to load the appropriate NVIDIA HPC SDK module. For example:
 ```bash
-module load Core/Portland/nvhpc/24.7```
+module load Core/Portland/nvhpc/24.7
 
 ### 2. Compiling the Source Code
+Compile the main execution routine (`main.cc`) alongside the CUDA-accelerated backend (`CheckGamma.cu`) into a single executable named `main`:
 
-Compile the main execution routine (main.cc) alongside the CUDA-accelerated backend (CheckGamma.cu) into a single executable named main:
 ```bash
 nvcc -o main main.cc CheckGamma.cu
 
